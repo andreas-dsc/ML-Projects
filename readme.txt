@@ -8,10 +8,13 @@ Transparency: It reduces the discrepancy between declared values ​​and actua
 
 Is it a good dataset?
 Well not that good, because it does not take account of important property features like the micro-location, the view, the renovation and interior condition or the energy class and heating of the building.
-Also for tax reasons the sold value is declared the same as the objective value.
+Also for tax reasons sometimes the sold value is declared the same as the objective value.
 So is it any good?
 The biggest advantage of the set is that it records the ground truth of real transactions: Unlike portals like Spitogatos or XE.gr—which only capture asking prices (often inflated by 15%–30% and subject to negotiation)—this dataset records legally executed contracts and real money transfers.
 Also, with over 170000 cleaned transactions it provides sufficient statistical power to observe real appreciation.
+
+What does this ml model do?
+It predicts the price of a house/appartment based on some features like the area, size in sqm, the build year and floor.
 
 Why make a ml model to predict the price of an appartment or a house?
 For fun and to apply knowledge learned during my Msc.
